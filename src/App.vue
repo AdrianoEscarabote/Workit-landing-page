@@ -1,33 +1,13 @@
 <script setup>
 import Header from "./components/Header.vue"
 import Main from "./components/Main.vue"
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
   <Header />
-  
   <Main />
-
-  <!-- <div>
-    <h2 class="px-4 py-3 text-primary font-manrope">Apply for access</h2>
-    <p>Data tailored to your needs.</p>
-    <p>Learn more</p>
-    <ol class="flex items-center">
-      <li>Actionable insights</li>
-      <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
-      <li>Data-driven decisions</li>
-      <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
-      <li>Always affordable</li>
-      <p>Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
-    </ol>
-    <h2>Be the first to test</h2>
-    <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
-    <button>Apply for access</button>
-  </div>
-
-  <main>
-    <TheWelcome />
-  </main> -->
+  <Footer />
 </template>
 
 <style>
