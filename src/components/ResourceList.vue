@@ -26,26 +26,26 @@
 
 <style scoped>
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .wrapper h2 {
-    font-size: 32px; 
+    font-size: 2rem; 
   }
   li {
     flex-direction: column !important;
-    max-width: 354px;
+    max-width: 22.125rem;
   }
   li .wrapper {
     text-align: center !important;
   }
 }
-@media (min-width: 640px) {
+@media (min-width: 40rem) {
   li {
     flex-direction: row;
   }
   li .wrapper {
-    gap: 20px;
+    gap: 1.25rem;
     text-align: start;
-    max-width: 493px;
+    max-width: 30.8125rem;
   }
   ul {
     justify-content: center;

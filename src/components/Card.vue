@@ -10,41 +10,40 @@
 </template>
 
 <style scoped>
-@media (min-width: 1024px) { 
+@media (min-width: 64rem) { 
   section img {
-    left: 42px;
+    left: 2.625rem;
   }
   section {
-    margin-top: 200px;
+    margin-top: 12.5rem;
   }
   h3 {
-    font-size: 3.5rem;
+    font-size: 56px;
   }
   img {
-    max-width: 477px;
-    top: -120px;
-    right: -80px;
+    top: -7.5rem;
+    right: -5rem;
   }
   .box-text {
     align-items: flex-start;
-    max-width: 730px;
-    height: 467px;
+    max-width: 45.625rem;
+    height: 29.1875rem;
     position: relative;
-    top: 56px;
-    left: -50px;
-    padding-left: 64px !important;
+    top: 3.5rem;
+    left: -3.125rem;
+    padding-left: 4rem !important;
   }
   .box-text h3 {
     position: relative;
-    top: -36px;
+    top: -2.25rem;
   }
   .box-text p {
     position: relative;
-    top: -16px;
+    top: -1rem;
   }
   .box-text a {
     position: relative;
-    top: -5px;
+    top: -0.3125rem;
   }
   p {
     text-align: start;
@@ -53,24 +52,27 @@
     flex-direction: row;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
   img {
-    max-width: 281px;
+    max-width: 17.5625rem;
   }
 }
-@media (min-width: 640px) {
+@media (min-width: 40rem) {
+  img {
+    max-width: 29.8125rem;
+  }
   .box-text {
     position: relative;
   }
   .box-text::before {
     content: "";
     width: 100%;
-    height: 208px;
+    height: 13rem;
     background: url("../assets/images/bg-pattern-1.svg") no-repeat;
-    background-size: 202px 178px;
+    background-size: 12.625rem 11.125rem;
     position: absolute;
-    right: -450px;
-    bottom: -18px;
+    right: -28.125rem;
+    bottom: -1.125rem;
     z-index: 2;
   }
 }

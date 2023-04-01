@@ -29,10 +29,10 @@ import Card from "./Card.vue"
   content: "";
   z-index: -100;
   position: absolute;
-  top: -100px;
+  top: -6.25rem;
   border-radius: 50%;
   width: 200%;
-  height: 470px;
+  height: 29.375rem;
   background: #24053E;  
 }
 
@@ -41,35 +41,35 @@ import Card from "./Card.vue"
   z-index: -200;
   position: absolute;
   left: -50%;
-  top: -200px;
+  top: -12.5rem;
   border-radius: 50%;
   width: 200%;
   height: 140%;
   background: #FCF8FF;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 40rem) {
   .hero-image::before {
     width: 170%;
-    top: -130px;
+    top: -8.125rem;
     height: 35.4%;
   }
   img {
-    top: 46px;
-    left: 24px;
+    top: 2.875rem;
+    left: 1.5rem;
   }
   h1 {
     font-weight: 600;
-    max-width: 635px; 
-    font-size: 80px;
-    line-height: 80px ;
+    max-width: 39.6875rem; 
+    font-size: 5rem;
+    line-height: 5rem ;
   }
   .wrapper-list::before {
-    top: -380px;
+    top: -23.75rem;
     height: 240%;
   }
   .pattern {
-    max-width: 1440px;
+    max-width: 90rem;
     margin: 0 auto;
   }
   .pattern::after,
@@ -80,25 +80,25 @@ import Card from "./Card.vue"
   } 
   .pattern::after {
     background: url("../assets/images/bg-pattern-2.svg") no-repeat;
-    right: -50px;
+    right: -3.125rem;
     /* transform: rotateZ(-9deg); */
-    top: 166px;
-    width: 175px;
-    height: 200px;
-    background-size: 171px 182px;
+    top: 10.375rem;
+    width: 10.9375rem;
+    height: 12.5rem;
+    background-size: 10.6875rem 11.375rem;
   }
   .pattern::before {
     background: url("../assets/images/bg-pattern-3.svg") no-repeat;
-    left: -138px;
+    left: -8.625rem;
     transform: rotateZ(-9deg);
-    top: -223px;
-    width: 324px;
-    height: 700px;
-    background-size: 338px 705px;
+    top: -13.9375rem;
+    width: 20.25rem;
+    height: 43.75rem;
+    background-size: 21.125rem 44.0625rem;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 64rem) {
   .hero-image img {
     max-width: 80%;
   }

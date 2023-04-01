@@ -9,11 +9,11 @@
 
 <style scoped>
 a {
-  line-height: 2rem;
+  line-height: 32px;
 }
-@media (min-width: 1028px) {
+@media (min-width: 64.25rem) {
   .container {
-    padding: 56px 165px !important;
+    padding: 3.5rem 10.3125rem !important;
   }
 }
 </style>
