@@ -87,7 +87,16 @@ select {
   clip: rect(0,0,0,0);
   border: 0;
 }
-
+body::-webkit-scrollbar {
+  width: 0.75rem;              
+}
+body::-webkit-scrollbar-track {
+  background: transparent;        
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #44FFA1; 
+}
 .font-fraunces {
   font-family: 'Fraunces', sans-serif;
 }

@@ -1,4 +1,4 @@
-- Deploy 
+- Deploy [click here](https://workit-landing-page-adrianoescarabote.vercel.app/)
 
 # Frontend Mentor - Workit landing page solution
 
@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot/desktop.jpeg)
 
 ## My process
 
@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Continued development
 
--- 
+This is my first project using Vue.js and Tailwind CSS, and I'm excited to learn more about these two frameworks. Since this is my first project, I decided to keep it simple so that I can focus on learning without getting too overwhelmed. However, I plan to tackle more complex projects in the near future.
 
 ## Author
 
