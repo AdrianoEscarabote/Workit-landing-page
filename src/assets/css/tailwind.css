@@ -7,3 +7,17 @@
     max-width: 1440px;
   }
 }
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope/static/Manrope-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
